@@ -1,0 +1,16 @@
+diff --git a/themes/sunaku.zsh-theme b/themes/sunaku.zsh-theme
+index 77f3acc7..0391f396 100644
+--- a/themes/sunaku.zsh-theme
++++ b/themes/sunaku.zsh-theme
+@@ -6,8 +6,10 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}-"
+ ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%}>"
+ ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[cyan]%}#"
+ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[yellow]%}?"
++ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_no_bold[yellow]%}^"
++ZSH_THEME_GIT_PROMPT_BEHIND="%{$fg_no_bold[magenta]%}v"
+ 
+-ZSH_THEME_GIT_PROMPT_PREFIX=""
++ZSH_THEME_GIT_PROMPT_PREFIX=" "
+ ZSH_THEME_GIT_PROMPT_SUFFIX=" "
+ ZSH_THEME_GIT_PROMPT_DIRTY=""
+ ZSH_THEME_GIT_PROMPT_CLEAN=""
