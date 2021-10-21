@@ -1,6 +1,6 @@
 session_name: GPF Development
 windows:
-- window_name: Editors
+- window_name: GPF
   layout: even-horizontal
   shell_command_before:
     - source /home/iordan/setenv.sh   # set environment
@@ -8,6 +8,11 @@ windows:
     - shell_command:
       - cd /home/iordan/gpf          # gpf
       - nvim
+- window_name: GPFJS
+  layout: even-horizontal
+  shell_command_before:
+    - source /home/iordan/setenv.sh   # set environment
+  panes:
     - shell_command:
       - cd /home/iordan/gpfjs        # gpfjs
       - nvim
