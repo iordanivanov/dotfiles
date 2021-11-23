@@ -1,0 +1,20 @@
+session_name: GPF Development
+windows:
+- window_name: Servers
+  layout: even-horizontal
+  shell_command_before:
+    - source /home/iordan/setenv.sh   # set environment
+  panes:
+    - shell_command:
+      - cd /home/iordan/gpf/wdae/wdae          # wdae
+      - clear
+    - shell_command:
+      - cd /home/iordan/gpfjs/src/app          # gpfjs
+      - clear
+- window_name: General
+  layout: even-horizontal
+  shell_command_before:
+    - source /home/iordan/setenv.sh   # set environment
+  panes:
+    - shell_command:
+      - cd /home/iordan
