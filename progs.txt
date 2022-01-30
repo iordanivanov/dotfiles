@@ -1,0 +1,7 @@
+1. firefox
+2. codium
+3. discord
+4. vlc
+5. thunar
+p. poweroff
+r. reboot

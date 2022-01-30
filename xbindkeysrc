@@ -1,0 +1,5 @@
+"xfce4-screenshooter"
+  Print
+
+"$(cat utils/progs.txt | dmenu -fn 'monospace 12' -l $(wc -l utils/progs.txt | cut -c 1) | cut -c4-)"
+  Menu
